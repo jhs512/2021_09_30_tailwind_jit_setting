@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev:css": "npx tailwindcss -i src/main/resources/static/resource/source.css -o src/main/resources/static/resource/dist.css --watch --postcss",
+    "build:css": "SET NODE_ENV=production & npx tailwindcss -i src/main/resources/static/resource/source.css -o src/main/resources/static/resource/dist.css --postcss --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "daisyui": "^1.14.2",
+    "postcss": "^8.3.8",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.16"
+  }
+}
