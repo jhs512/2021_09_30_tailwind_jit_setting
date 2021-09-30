@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev:css": "npx tailwindcss -i src/main/resources/static/resource/source.css -o src/main/resources/static/resource/dist.css --watch --postcss",
-    "build:css": "SET NODE_ENV=production & npx tailwindcss -i src/main/resources/static/resource/source.css -o src/main/resources/static/resource/dist.css --postcss --minify"
+    "build:css": "SET NODE_ENV=production & npx tailwindcss -i src/main/resources/static/resource/source.css -o src/main/resources/static/resource/dist.build.css --postcss --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.6",
